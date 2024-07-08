@@ -34,10 +34,6 @@ export class Community implements CommunityI {
     }
 
 
-    /**
-     * Get all gamers games and determine 3 most popular games
-     * Sort games by popularity
-     */
     @ValidateLength<CommunityI>(2,
                                 'gamers')
     popularGames(): void {
